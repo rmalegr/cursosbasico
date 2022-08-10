@@ -8,6 +8,7 @@ import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import Eventos from './components/Eventos';
+import ComunicacionComponent from './components/ComunicacionComponent';
 
 function App() {
   let nombre = 'Rodrigo';
@@ -51,6 +52,8 @@ function App() {
         <RenderizadoElementos />
         <hr></hr>
         <Eventos />
+        <hr></hr>
+        <ComunicacionComponent />
       </section>
     </div>
   );
