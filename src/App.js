@@ -2,6 +2,7 @@
 
 import logo from './logo.svg';
 import './App.css';
+import ContadorHooks from './components/ContadorHooks';
 import Propiedades from './components/Propiedades';
 import Componente from './components/Componente';
 import Estado from './components/Estado';
@@ -9,6 +10,7 @@ import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import Eventos from './components/Eventos';
 import ComunicacionComponent from './components/ComunicacionComponent';
+import ScrollHooks from './components/ScrollHooks';
 
 function App() {
   let nombre = 'Rodrigo';
@@ -45,6 +47,8 @@ function App() {
         />
 
         <hr></hr>
+        <ScrollHooks />
+        <hr></hr>
         <Estado> </Estado>
         <hr></hr>
         <RenderizadoCondicional />
@@ -54,6 +58,8 @@ function App() {
         <Eventos />
         <hr></hr>
         <ComunicacionComponent />
+        <hr></hr>
+        <ContadorHooks titulo="No es un contador de clics" />
       </section>
     </div>
   );

@@ -5,9 +5,7 @@ import data from '../helpers/data.json';
 function ElementoLista(props) {
   return (
     <li>
-      <a href={props.el.web} target="_blank">
-        {props.el.name}
-      </a>
+      <a href={props.el.web}>{props.el.name}</a>
     </li>
   );
 }
